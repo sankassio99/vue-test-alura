@@ -36,7 +36,7 @@ jest.mock('@/http');
 describe('Testando alerta',  () => {
     test('avisa quando não existem lances', async () => {
 
-        // simular um leilão 
+        // simular uma requisição http de leilão 
         getLeilao.mockResolvedValueOnce(leilao);
         getLances.mockResolvedValueOnce([])
         const wrapper = mount(Leiloeiro, {
