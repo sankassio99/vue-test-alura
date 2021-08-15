@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# vue-test-alura
-Jest with Vue.js - Alura class
-=======
 # testing
 
 ## Setup do Projeto
@@ -28,4 +24,3 @@ Iniciando a api fake de leilões;
 json-server --watch db.json
 ```
 
->>>>>>> origin/master
